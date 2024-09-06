@@ -52,7 +52,9 @@ public class String1
      *  helloName("X") → "Hello X!"
      */
     public String helloName(String name) {
-        return unimplemented;
+        String output = "";
+        output = "Hello" + name +"!";
+        return output;
     }
 
     /*
@@ -63,7 +65,9 @@ public class String1
      * makeAbba("What", "Up") → "WhatUpUpWhat"
      */
     public String makeAbba(String a, String b) {
-        return unimplemented;
+        String output = "";
+        output = a+b+b+a;
+        return output;
     }
 
     /*
@@ -75,8 +79,9 @@ public class String1
      * makeTags("cite", "Yay") → "<cite>Yay</cite>"
      */
     public String makeTags(String tag, String word) {
-        return unimplemented;
-    }
+   String output = "";
+        output = ("<" + tag + ">" + word + "<" + tag + "/>");
+        return output;    }
 
     /*
      * Given an "out" string length 4, such as "<<>>", and a word, 
@@ -89,8 +94,9 @@ public class String1
      * makeOutWord("[[]]", "word") → "[[word]]"
      */
     public String makeOutWord(String out, String word) {
-        return unimplemented;
-    }
+ String output = "";
+        output = "<<" + word + ">>";
+        return output;    }
 
     /*
      * Given a string, return a new string made of 3 copies of the last 2 chars of the original string. 
@@ -102,7 +108,6 @@ public class String1
   public class ExtraEnd {
 
     public static void main(String[] args) {
-        // Test cases
         System.out.println(extraEnd("Hello")); // Output: "lololo"
         System.out.println(extraEnd("ab"));    // Output: "ababab"
         System.out.println(extraEnd("Hi"));    // Output: "HiHiHi"
