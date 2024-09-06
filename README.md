@@ -1,17 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FpHRp_4F)
-# String1
 
-## Program Description:  
-- Implement each method as described above
-- Use the TestString1 file to check your work
-- On submission github will auto grade your completed code
-  - Each method is worth 2 points
-  - Total of 34 points
-- I recommend submitting when finished with each method just in case
-
-## Statements Required: 
-- See methods for requirements
-package src.main.java;
 
 
 public class String1
@@ -217,7 +204,7 @@ public class String1
         return str.substring(midIndex - 1, midIndex + 2);  // Extract 3 characters
     }
 
-    }
+    
 
     /*
      * Given a string of odd length, return the string length 3 from its middle, so "Candy" yields "and". 
@@ -247,7 +234,7 @@ public class String1
         return front + front + front;  // Concatenate the front three times
     }
 
-    }
+    
 
     /*
      * Given a string, return a new string made of 3 copies of the first 2 chars of the original string. 
@@ -273,7 +260,7 @@ public class String1
         return restOfString + firstTwo;
     }
 
-    }
+    
 
     /*
      * Given a string, return true if "bad" appears starting at index 0 or 1 in the string, 
@@ -312,7 +299,7 @@ public class String1
         return false;
     }
 
-    }
+    
 
     /*
      * Given two strings, append them together (known as "concatenation") and return the result. 
@@ -350,7 +337,7 @@ public class String1
         // Otherwise, concatenate normally
         return a + b;
     }
-    }
+    
 
     /*
      *Given two strings, append them together (known as "concatenation") and return the result. 
@@ -388,7 +375,7 @@ public class String1
         // Concatenate the two strings
         return a + b;
     }
-    }
+    
 
     /*
      * Given a string, if the first or last chars are 'x', return the string without those 'x' chars, 
@@ -419,7 +406,7 @@ public class String1
         }
         return str; // Return the modified or original string
     }
-    }
+    
 
     /*
      * Given a string, return a version without the first 2 chars. 
@@ -462,9 +449,9 @@ public class String1
 
         return result; // Return the final modified string
     }
-    }
+    
 
-}
+
 
 
 
