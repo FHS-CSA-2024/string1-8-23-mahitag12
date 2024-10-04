@@ -1,8 +1,8 @@
 package src.main.java;
 
-public class StringUtils {
+public class String1 {
     public static void main(String[] args) {
-        StringUtils s = new StringUtils();
+        String1 s = new String1();
         System.out.println(s.helloName("Bob"));
         System.out.println(s.makeAbba("Hi", "Bye"));
         System.out.println(s.makeTags("i", "Yay"));
@@ -112,6 +112,14 @@ public class StringUtils {
         }
         return result;
     }
+
+    public String firstHalf(String str){
+    //Function missing
+
+        return "";
+
+    }
+    
 }
 
 // output 
